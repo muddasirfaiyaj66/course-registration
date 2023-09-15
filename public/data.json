@@ -2,49 +2,49 @@
     {
       "img": "https://i.ibb.co/RzNr8Jn/Rectangle-2-2.png",
       "title": "Introduction to C Programming",
-      "description": "This comprehensive course introduces you to the world of C programming. You'll start with the basics, learning about variables, control structures, and functions. As you progress, you'll delve into advanced topics, including memory management and file handling. By the end of this course, you'll have a solid foundation in C programming and be ready to tackle more complex projects.",
+      "description": "Get started with C programming. Learn about variables, control structures, and functions. This course provides a solid foundation in C.",
       "price": 49.99,
       "credit_hour": 3
     },
     {
       "img": "https://i.ibb.co/QkY8F1r/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
-      "description": "Unlock the power of algorithms with this in-depth course. You'll explore a wide range of algorithms, from sorting and searching to graph algorithms and dynamic programming. Through hands-on exercises and real-world examples, you'll gain the skills needed to design and analyze efficient algorithms. Whether you're a beginner or an experienced programmer, this course will enhance your algorithmic problem-solving abilities.",
+      "description": "Master algorithms, including sorting and searching. Enhance your problem-solving skills and algorithmic thinking.",
       "price": 59.99,
       "credit_hour": 4
     },
     {
       "img": "https://i.ibb.co/KxDDPs1/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
-      "description": "Take your C++ skills to the next level with a focus on data structures and algorithms. This course covers advanced C++ topics, including object-oriented programming, templates, and the Standard Template Library (STL). You'll also explore data structures like arrays, linked lists, and trees, and learn how to implement essential algorithms in C++. By the end of this course, you'll be well-prepared for competitive programming and software development interviews.",
+      "description": "Advance your C++ skills with a focus on data structures and algorithms. Covers OOP and key concepts.",
       "price": 69.99,
       "credit_hour": 4
     },
     {
       "img": "https://i.ibb.co/wySnKJT/Rectangle-3.png",
       "title": "Basic Data Structures",
-      "description": "Master the fundamental data structures that underpin computer science and programming. This course covers arrays, linked lists, stacks, queues, and trees in detail. You'll not only learn how to use these data structures but also how to implement them from scratch. With practical examples and coding exercises, you'll gain a deep understanding of data structures, making you a more proficient programmer.",
+      "description": "Explore essential data structures: arrays, linked lists, stacks, and queues. Gain proficiency in their use.",
       "price": 54.99,
       "credit_hour": 3
     },
     {
       "img": "https://i.ibb.co/q1BbkW2/Rectangle-2.png",
       "title": "Introduction to OOP Python",
-      "description": "Dive into the world of object-oriented programming (OOP) with Python as your tool of choice. This course covers the principles of OOP, including classes, inheritance, encapsulation, and polymorphism. You'll build real-world projects that demonstrate the power of OOP in Python. Whether you're a Python novice or experienced developer, this course will enhance your ability to write clean, modular, and maintainable code.",
+      "description":  "Learn Python OOP principles - classes, inheritance, and polymorphism. Create modular, maintainable code.",
       "price": 49.99,
       "credit_hour": 3
     },
     {
       "img": "https://i.ibb.co/jGS6q5v/Rectangle-2-5.png",
       "title": "Software Engineering",
-      "description": "Embark on a journey into the world of software engineering. This comprehensive course covers software development methodologies, project management, software design principles, and quality assurance. You'll learn how to plan, design, develop, test, and maintain software systems. Whether you're a budding software engineer or an experienced developer, this course will equip you with the skills needed to excel in the software industry.",
+      "description": "Study software engineering methodologies and project management. Develop skills for software design.",
       "price": 79.99,
       "credit_hour": 5
     },
     {
       "img": "https://i.ibb.co/wg8RZCw/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
-      "description": "Get hands-on experience with Amazon Web Services (AWS), the leading cloud computing platform. This course covers AWS services such as EC2, S3, Lambda, and RDS. You'll learn how to deploy, manage, and scale applications in the cloud. Whether you're an aspiring cloud engineer or a seasoned IT professional, this course will prepare you for a successful career in cloud computing.",
+      "description": "Gain hands-on experience with AWS. Learn to deploy and manage services like EC2, S3, and Lambda.",
       "price": 69.99,
       "credit_hour": 4
     },
@@ -52,14 +52,14 @@
     {
       "img": "https://i.ibb.co/9YZHX6w/Rectangle-2-1.png",
       "title": "Database (MySQL)",
-      "description": "Become proficient in database management with MySQL, one of the most popular relational database systems. This course covers database design, SQL queries, indexing, and database administration. You'll gain practical skills through hands-on exercises and real-world database projects. Whether you're a developer or a database administrator, this course will enhance your expertise in managing and querying databases.",
+      "description":  "Master MySQL - design, query, and administer databases. Acquire expertise in effective database management.",
       "price": 54.99,
       "credit_hour": 3
     },
     {
         "img": "https://i.ibb.co/840FxD1/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
-        "description": "Enhance your problem-solving skills with this comprehensive course. Whether you're preparing for coding interviews or aiming to become a more efficient programmer, this course is designed to help you tackle complex problems with confidence. You'll learn various problem-solving techniques, algorithmic thinking, and strategies for optimizing code. Through hands-on coding exercises and real-world examples, you'll sharpen your problem-solving abilities and excel in competitive programming and software development.",
+        "description":  "Enhance problem-solving skills for coding interviews and competitive programming. Learn techniques and algorithmic thinking.",
         "price": 59.99,
         "credit_hour": 3
       }
