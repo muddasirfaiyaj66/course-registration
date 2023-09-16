@@ -21,6 +21,7 @@ function App() {
     const isExist =selectData.find((data) => data.id === card.id);
     if(isExist){
       toast('You have already select this course. ') 
+      setSelectData(selectData);
     }
   }
 
