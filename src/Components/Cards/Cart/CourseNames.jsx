@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const CourseNames = ({selectData}) => {
     return (
         <div className="border-b-2 pb-3 border-gray-400 ">
@@ -5,7 +6,7 @@ const CourseNames = ({selectData}) => {
         {
           selectData.map((data, idx) =>(
            <>
-            <ol  className="mb-3 ">
+            <ol key={idx} className="mb-3 ">
               <li >{idx+1}. {data.title}</li>
             </ol>
            
@@ -15,5 +16,7 @@ const CourseNames = ({selectData}) => {
       </div>
     );
 };
-
+CourseNames.propTypes ={
+  selectData:PropTypes.object.isRequired
+}
 export default CourseNames;

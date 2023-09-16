@@ -1,5 +1,6 @@
+import PropTypes from 'prop-types';
 const Card = ({card, handleClick}) => {
-    const {img, title,description,price,credit_hour,d_icon,b_icon } =card;
+    const {img, title,description,price,credit_hour } =card;
 
     
 
@@ -28,4 +29,9 @@ const Card = ({card, handleClick}) => {
     );
 
   };
+  Card.propTypes ={
+    card:PropTypes.object.isRequired,
+    handleClick : PropTypes.func.isRequired
+
+  }
 export default Card;

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const TotalPrice = ({selectData}) => {
     let total = 0;
     for(const data of selectData){
@@ -10,5 +11,7 @@ const TotalPrice = ({selectData}) => {
          </div>
     );
 };
-
+TotalPrice.propTypes ={
+    selectData:PropTypes.object.isRequired
+}
 export default TotalPrice;

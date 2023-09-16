@@ -1,4 +1,5 @@
 import './App.css'
+import PropTypes from 'prop-types';
 import Cards from './Components/Cards/Cards'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -52,5 +53,12 @@ function App() {
     </>
   )
 }
-
+App.propTypes ={
+  selectData:PropTypes.any.isRequired,
+  CourseNames:PropTypes.object.isRequired,
+  CreditHour:PropTypes.object.isRequired,
+  TotalCreditHour:PropTypes.object.isRequired,
+  TotalPrice:PropTypes.object.isRequired
+  
+}
 export default App
