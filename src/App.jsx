@@ -34,10 +34,10 @@ function App() {
           <Cards handleClick={handleClick} ></Cards>
           <div className="card h-max w-full bg-gray-200 ">
           <div  className="card-body items-center text-center ">
-            <CreditHour ></CreditHour>
+            <CreditHour selectData={selectData}></CreditHour>
             <CourseNames selectData={selectData}></CourseNames>
             <TotalCreditHour selectData={selectData}></TotalCreditHour>
-            <TotalPrice></TotalPrice>
+            <TotalPrice selectData={selectData}></TotalPrice>
 
             </div>
             </div>

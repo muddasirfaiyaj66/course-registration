@@ -1,9 +1,12 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import CreditHour from './CreditHour';
+
 
 const TotalCreditHour = ({selectData}) => {
     let totalCredit =0;
+
+    
+    
     for(const data of selectData){
         
         if(totalCredit < 20){
@@ -11,15 +14,17 @@ const TotalCreditHour = ({selectData}) => {
             
             
         }else{
-            toast('Your credit hour is not remaining')
+            toast('You do not have enough credit hour')
 
         }
     }
-    CreditHour(totalCredit);
+
+    
     return (
         <div className="border-b-2 pb-3 border-gray-400">
-           <h3 className="text-2xl font-semibold my-3">Total Credit Hour: {totalCredit} </h3>
+           <h3 className="text-2xl font-semibold my-3">Total Credit Hour: {`${totalCredit < 20 ? totalCredit : ''}`} </h3>
            <ToastContainer></ToastContainer>
+           
          </div>
     );
 };

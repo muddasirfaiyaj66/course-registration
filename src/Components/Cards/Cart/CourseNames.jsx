@@ -1,4 +1,4 @@
-import CreditHour from "./CreditHour";
+// import CreditHour from "./CreditHour";
 
 
 const CourseNames = ({selectData}) => {
