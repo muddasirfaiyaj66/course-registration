@@ -1,6 +1,3 @@
-// import CreditHour from "./CreditHour";
-
-
 const CourseNames = ({selectData}) => {
     return (
         <div className="border-b-2 pb-3 border-gray-400 ">

@@ -1,4 +1,3 @@
-
 import './App.css'
 import Cards from './Components/Cards/Cards'
 import { ToastContainer, toast } from 'react-toastify';
@@ -30,7 +29,7 @@ function App() {
       <div className='max-w-screen-xl mx-auto mt-10'>
         <h1 className='text-4xl font-bold text-center'>Course Registration</h1>
 
-        <div className='flex gap-5 justify-between p-5'>
+        <div className='md:flex md:flex-row flex flex-col-reverse gap-5 justify-between p-5'>
           <Cards handleClick={handleClick} ></Cards>
           <div className="card h-max w-full bg-gray-200 ">
           <div  className="card-body items-center text-center ">

@@ -1,5 +1,3 @@
-
-
 const Card = ({card, handleClick}) => {
     const {img, title,description,price,credit_hour } =card;
 
@@ -9,7 +7,7 @@ const Card = ({card, handleClick}) => {
 
     return (
         <div>
-            <div className="card card-compact h-[450px] bg-base-100 shadow-xl">
+            <div className="card card-compact md:h-[450px] bg-base-100 shadow-xl">
   <figure className="p-2"> <img  src={img}  alt="banner image" /> </figure>
   <div className="card-body">
     <h2 className="card-title">{title}</h2>
