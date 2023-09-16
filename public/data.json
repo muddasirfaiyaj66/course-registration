@@ -1,47 +1,47 @@
 [
-    {
+    { "id": 1,
       "img": "https://i.ibb.co/RzNr8Jn/Rectangle-2-2.png",
       "title": "Introduction to C Programming",
       "description": "Get started with C programming. Learn about variables, control structures, and functions. This course provides a solid foundation in C.",
       "price": 49.99,
       "credit_hour": 3
     },
-    {
+    { "id": 2,
       "img": "https://i.ibb.co/QkY8F1r/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
       "description": "Master algorithms, including sorting and searching. Enhance your problem-solving skills and algorithmic thinking.",
       "price": 59.99,
       "credit_hour": 4
     },
-    {
+    { "id": 3,
       "img": "https://i.ibb.co/KxDDPs1/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
       "description": "Advance your C++ skills with a focus on data structures and algorithms. Covers OOP and key concepts.",
       "price": 69.99,
       "credit_hour": 4
     },
-    {
+    { "id": 4,
       "img": "https://i.ibb.co/wySnKJT/Rectangle-3.png",
       "title": "Basic Data Structures",
       "description": "Explore essential data structures: arrays, linked lists, stacks, and queues. Gain proficiency in their use.",
       "price": 54.99,
       "credit_hour": 3
     },
-    {
+    { "id": 5,
       "img": "https://i.ibb.co/q1BbkW2/Rectangle-2.png",
       "title": "Introduction to OOP Python",
       "description":  "Learn Python OOP principles - classes, inheritance, and polymorphism. Create modular, maintainable code.",
       "price": 49.99,
       "credit_hour": 3
     },
-    {
+    { "id": 6,
       "img": "https://i.ibb.co/jGS6q5v/Rectangle-2-5.png",
       "title": "Software Engineering",
       "description": "Study software engineering methodologies and project management. Develop skills for software design.",
       "price": 79.99,
       "credit_hour": 5
     },
-    {
+    { "id": 7,
       "img": "https://i.ibb.co/wg8RZCw/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
       "description": "Gain hands-on experience with AWS. Learn to deploy and manage services like EC2, S3, and Lambda.",
@@ -49,14 +49,14 @@
       "credit_hour": 4
     },
     
-    {
+    { "id": 8,
       "img": "https://i.ibb.co/9YZHX6w/Rectangle-2-1.png",
       "title": "Database (MySQL)",
       "description":  "Master MySQL - design, query, and administer databases. Acquire expertise in effective database management.",
       "price": 54.99,
       "credit_hour": 3
     },
-    {
+    {   "id": 9,
         "img": "https://i.ibb.co/840FxD1/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
         "description":  "Enhance problem-solving skills for coding interviews and competitive programming. Learn techniques and algorithmic thinking.",

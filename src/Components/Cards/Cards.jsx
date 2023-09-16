@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Card from "./Card/Card";
 
 
-const Cards = () => {
+const Cards = ({handleClick}) => {
     const [cardData, setCardData] =useState([]);
     useEffect(()=>{
         fetch('data.json')
@@ -13,7 +13,7 @@ const Cards = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {
-                cardData.map((card,idx) => <Card key={idx} card={card}></Card> )
+                cardData.map((card,idx) => <Card handleClick={handleClick}  key={idx} card={card}></Card>)
             }
         </div>
     );
